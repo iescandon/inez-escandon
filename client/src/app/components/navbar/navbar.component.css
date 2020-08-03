@@ -54,7 +54,7 @@
 .sidenav a {
   padding: 8px 8px 8px 32px;
   text-decoration: none;
-  font-size: 25px;
+  font-size: 18px;
   color: black;
   display: block;
   transition: 0.3s;
@@ -87,4 +87,16 @@
 
 nav {
   padding: 0;
+}
+
+#sidenav-placeholder {
+  width: 40%;
+  height: 25%;
+  clip-path: circle(40%);
+  background-color: grey;
+}
+
+a.logo {
+  padding-left: 0 !important;
+  /* margin-top: 12px; */
 }

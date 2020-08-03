@@ -6,7 +6,7 @@ body {
       rgba(0, 0, 0, 0.3)
     ),
     url(assets/inez3.jpg); */
-  background-image: url(assets/inez3.jpg);
+  background-image: url(assets/inez.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   font-family: "Montserrat", sans-serif;

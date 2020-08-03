@@ -1,0 +1,21 @@
+.container-fluid {
+  background: white;
+  overflow: hidden;
+  background-position-y: center;
+  position: absolute;
+  top: 0;
+  z-index: -100;
+}
+
+.col {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+
+/* .top-row {
+  overflow: hidden;
+  background-position-y: center;
+  position: absolute;
+  top: 0;
+  z-index: -100;
+} */
