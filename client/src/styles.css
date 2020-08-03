@@ -8,5 +8,6 @@ body {
     url(assets/inez3.jpg); */
   background-image: url(assets/inez3.jpg);
   background-size: cover;
+  background-repeat: no-repeat;
   font-family: "Montserrat", sans-serif;
 }
