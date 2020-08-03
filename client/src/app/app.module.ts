@@ -13,6 +13,10 @@ import { ContactComponent } from './components/contact/contact.component';
 import { AboutImgComponent } from './components/about-img/about-img.component';
 import { AboutInfoComponent } from './components/about-info/about-info.component';
 import { AboutExtraComponent } from './components/about-extra/about-extra.component';
+import { PortfolioTitleComponent } from './components/portfolio-title/portfolio-title.component';
+import { PortfolioItemsComponent } from './components/portfolio-items/portfolio-items.component';
+import { ResumeTitleComponent } from './components/resume-title/resume-title.component';
+import { ResumeInfoComponent } from './components/resume-info/resume-info.component';
 
 @NgModule({
   declarations: [
@@ -27,6 +31,10 @@ import { AboutExtraComponent } from './components/about-extra/about-extra.compon
     AboutImgComponent,
     AboutInfoComponent,
     AboutExtraComponent,
+    PortfolioTitleComponent,
+    PortfolioItemsComponent,
+    ResumeTitleComponent,
+    ResumeInfoComponent,
   ],
   imports: [BrowserModule, AppRoutingModule],
   providers: [],

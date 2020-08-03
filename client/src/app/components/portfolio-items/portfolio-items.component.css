@@ -1,0 +1,26 @@
+.items {
+  height: 80vh;
+  width: 100vw;
+  background-color: white;
+}
+
+.col {
+  /* background-color: red; */
+  /* height: 22vh; */
+  /* margin: 10px; */
+  padding: 0;
+}
+
+img {
+  width: fit-content;
+}
+
+.pics {
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+img:hover {
+  opacity: 50%;
+  /* cursor: pointer; */
+}

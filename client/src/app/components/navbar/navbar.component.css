@@ -45,7 +45,7 @@
   z-index: 1;
   top: 0;
   left: 0;
-  background-color: white;
+  background-color: #f2f2f2;
   overflow-x: hidden;
   transition: 0.5s;
   padding-top: 60px;
@@ -61,7 +61,7 @@
 }
 
 .sidenav a:hover {
-  color: #f1f1f1;
+  color: grey;
 }
 
 .sidenav .closebtn {
@@ -90,10 +90,10 @@ nav {
 }
 
 #sidenav-placeholder {
-  width: 40%;
-  height: 25%;
-  clip-path: circle(40%);
-  background-color: grey;
+  width: 35%;
+  /* height: 25%; */
+  /* clip-path: circle(40%);
+  background-color: grey; */
 }
 
 a.logo {
