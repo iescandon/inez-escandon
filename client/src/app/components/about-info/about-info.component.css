@@ -3,3 +3,14 @@
   background-color: rgb(11, 45, 85);
   padding: 0;
 }
+
+.text {
+  color: white;
+  padding: 30px;
+  padding-top: 20vh;
+}
+
+.header {
+  font-family: "Satisfy", cursive;
+  font-size: 54px;
+}
