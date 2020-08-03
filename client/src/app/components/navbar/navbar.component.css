@@ -1,0 +1,37 @@
+.navbar-brand {
+  list-style: none;
+  display: inline-block;
+  padding-left: 0;
+  /* padding-top: 0.3125rem;
+  padding-bottom: 0.3125rem;
+  margin-right: 1rem; */
+  /* font-size: 1.25rem; */
+  /* line-height: inherit; */
+  /* white-space: nowrap; */
+  /* font-family: "Satisfy", cursive; */
+  /* font-size: 72px; */
+}
+
+.menu li {
+  display: inline;
+}
+
+.fa-linkedin,
+.fa-github,
+.fa-instagram {
+  padding: 10px;
+  width: 41.5px;
+  font-size: 20px;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  /* color: #ffffff80; */
+  border-radius: 50%;
+  /* background-color: white; */
+}
+
+.fa-linkedin:hover,
+.fa-github:hover,
+.fa-instagram:hover {
+  color: #ffffff80;
+}
