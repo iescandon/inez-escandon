@@ -13,7 +13,7 @@
 }
 
 .display-4 {
-  padding-top: 175px;
+  /* padding-top: 175px; */
   color: white;
   /* color: black; */
   font-size: 100px;
@@ -31,10 +31,14 @@
   text-shadow: 2px 2px 20px black;
 }
 
-/* .vertical-center {
-  min-height: 100%;
-  min-height: 100vh;
+/* .col {
+  height: 100vh;
+} */
+
+.vertical-center {
+  /* min-height: 100%; */
+  min-height: 80vh;
 
   display: flex;
   align-items: center;
-} */
+}
