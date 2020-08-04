@@ -1,3 +1,41 @@
-.container-fluid {
+/* .container-fluid {
   padding: 80px;
+  height: 100vh;
+} */
+
+.left-col {
+  background-color: white;
+  width: 35vw;
+  /* height: 600px; */
+  /* padding-top: 80px; */
 }
+
+.right-col {
+  width: 65vw;
+  background-color: #f2f2f2;
+  overflow: scroll;
+  /* color: white; */
+  padding-top: 90px;
+}
+
+.bd-toc {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 10rem;
+  height: calc(100vh - 4rem);
+  overflow-y: auto;
+  -webkit-box-ordinal-group: 3;
+  -ms-flex-order: 2;
+  padding-bottom: 1.5rem;
+  font-size: 0.875rem;
+}
+
+/* h4 {
+  color: rgb(6, 30, 61);
+} */
+
+/* 
+h4,
+p {
+  color: black;
+} */

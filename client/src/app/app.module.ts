@@ -17,6 +17,7 @@ import { PortfolioTitleComponent } from './components/portfolio-title/portfolio-
 import { PortfolioItemsComponent } from './components/portfolio-items/portfolio-items.component';
 import { ResumeTitleComponent } from './components/resume-title/resume-title.component';
 import { ResumeInfoComponent } from './components/resume-info/resume-info.component';
+import { NavbarLightComponent } from './components/navbar-light/navbar-light.component';
 
 @NgModule({
   declarations: [
@@ -35,6 +36,7 @@ import { ResumeInfoComponent } from './components/resume-info/resume-info.compon
     PortfolioItemsComponent,
     ResumeTitleComponent,
     ResumeInfoComponent,
+    NavbarLightComponent,
   ],
   imports: [BrowserModule, AppRoutingModule],
   providers: [],

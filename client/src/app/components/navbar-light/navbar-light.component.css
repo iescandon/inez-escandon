@@ -1,0 +1,90 @@
+.navbar-brand {
+  list-style: none;
+  display: inline-block;
+  padding-left: 0;
+}
+
+.menu li {
+  display: inline;
+}
+
+.fa-linkedin,
+.fa-github,
+.fa-instagram {
+  padding: 10px;
+  width: 41.5px;
+  font-size: 20px;
+  text-align: center;
+  text-decoration: none;
+  color: black;
+  border-radius: 50%;
+}
+
+.fa-linkedin:hover,
+.fa-github:hover,
+.fa-instagram:hover {
+  color: #ffffff80;
+}
+
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #f2f2f2;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 18px;
+  color: black;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: grey;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+.hamburger-icon {
+  padding-left: 24px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {
+    padding-top: 15px;
+  }
+  .sidenav a {
+    font-size: 18px;
+  }
+}
+
+nav {
+  padding: 0;
+}
+
+#sidenav-placeholder {
+  width: 35%;
+  /* height: 25%; */
+  /* clip-path: circle(40%);
+  background-color: grey; */
+}
+
+a.logo {
+  padding-left: 0 !important;
+  /* margin-top: 12px; */
+}

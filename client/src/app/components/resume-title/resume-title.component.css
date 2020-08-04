@@ -1,13 +1,13 @@
 .title {
   /* height: 34vh; */
-  width: 100vw;
+  /* width: 100vw; */
   /* background-color: rgb(11, 59, 11); */
   /* background: none; */
 }
 
 .h1title {
   color: black;
-  padding-top: 50px;
-  font-size: 50px;
-  font-family: "Montserrat", sans-serif;
+  /* padding-top: 50px; */
+  font-size: 66px;
+  font-family: "Satisfy", cursive;
 }

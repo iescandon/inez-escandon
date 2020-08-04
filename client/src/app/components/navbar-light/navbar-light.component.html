@@ -1,0 +1,46 @@
+<nav class="navbar navbar-expand-lg navbar-dark">
+  <div id="mySidenav" class="sidenav mr-auto">
+    <a href="javascript:void(0)" class="closebtn" (click)="closeNav()"
+      >&times;</a
+    >
+    <a href="#" class="logo">
+      <img
+        src="../../../assets/apple.png"
+        id="sidenav-placeholder"
+        class="my-2 mx-auto d-block logo"
+    /></a>
+    <a routerLink="/about" (click)="closeNav()">ABOUT</a>
+    <a routerLink="/portfolio" (click)="closeNav()">PORTFOLIO</a>
+    <a routerLink="/resume" (click)="closeNav()">RESUME</a>
+    <a routerLink="/contact" (click)="closeNav()">CONTACT</a>
+  </div>
+  <span
+    class="navbar-nav hamburger-icon mr-auto"
+    style="font-size: 30px; cursor: pointer; color: black;"
+    (click)="openNav()"
+    >&#9776;</span
+  >
+  <ul class="navbar-brand menu pt-4">
+    <li>
+      <a
+        href="https://www.linkedin.com/in/iescandon/"
+        target="_blank"
+        class="fa fa-linkedin"
+      ></a>
+    </li>
+    <li>
+      <a
+        href="https://github.com/iescandon"
+        target="_blank"
+        class="fa fa-github"
+      ></a>
+    </li>
+    <li>
+      <a
+        href="https://www.instagram.com/inescandon/?hl=en"
+        target="_blank"
+        class="fa fa-instagram"
+      ></a>
+    </li>
+  </ul>
+</nav>
