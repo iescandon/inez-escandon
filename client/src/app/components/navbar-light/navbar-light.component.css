@@ -22,8 +22,9 @@
 
 .fa-linkedin:hover,
 .fa-github:hover,
-.fa-instagram:hover {
-  color: #ffffff80;
+.fa-instagram:hover,
+.hamburger-icon:hover {
+  color: darkgray;
 }
 
 .sidenav {
@@ -49,7 +50,7 @@
 }
 
 .sidenav a:hover {
-  color: grey;
+  color: rgb(30, 105, 190);
 }
 
 .sidenav .closebtn {
@@ -62,6 +63,9 @@
 
 .hamburger-icon {
   padding-left: 24px;
+  font-size: 30px;
+  cursor: pointer;
+  color: black;
 }
 
 @media screen and (max-height: 450px) {
