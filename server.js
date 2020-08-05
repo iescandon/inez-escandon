@@ -14,7 +14,7 @@ var PORT = process.env.PORT || 3000;
 
 var distDir = __dirname + '/dist/';
 app.use(express.static(distDir));
-
+//hello
 // Requiring our models for syncing
 var db = require('./models');
 
