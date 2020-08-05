@@ -18,39 +18,56 @@
           <a href="./assets/resume.pdf" download>DOWNLOAD RESUME PDF</a>
         </div>
         <div id="list-example" class="list-group list-group-flush">
-          <a
+          <div
             class="list-group-item list-group-item-action text-center item1"
-            href="#list-item-1"
-            >Objective</a
+            (click)="scrollTo('section1')"
+            [ngClass]="{ 'current-section': currentSection === 'section1' }"
           >
-          <a
+            Objective
+          </div>
+          <div
             class="list-group-item list-group-item-action text-center item2"
-            href="#list-item-2"
-            >Experience</a
+            (click)="scrollTo('section2')"
+            [ngClass]="{ 'current-section': currentSection === 'section2' }"
           >
-          <a
+            Experience
+          </div>
+          <div
             class="list-group-item list-group-item-action text-center item3"
-            href="#list-item-3"
-            >Skills</a
+            (click)="scrollTo('section3')"
+            [ngClass]="{ 'current-section': currentSection === 'section3' }"
           >
-          <a
+            Skills
+          </div>
+          <div
             class="list-group-item list-group-item-action text-center item4"
-            href="#list-item-4"
-            >Education</a
+            (click)="scrollTo('section4')"
+            [ngClass]="{ 'current-section': currentSection === 'section4' }"
           >
-          <a
+            Education
+          </div>
+          <div
             class="list-group-item list-group-item-action text-center item5"
-            href="#list-item-5"
-            >Hobbies</a
+            (click)="scrollTo('section5')"
+            [ngClass]="{ 'current-section': currentSection === 'section5' }"
           >
+            Hobbies
+          </div>
         </div>
       </div>
     </div>
     <!-- SECOND COLUMN: RESUME TEXT -->
-    <div class="col-9 pl-5 right-col">
+    <div
+      class="col-9 pl-5 right-col"
+      id="parentDiv"
+      scrollSpy
+      [spiedTags]="['DIV']"
+      (sectionChange)="onSectionChange($event)"
+      style="height: 100vh; overflow-y: scroll;"
+    >
       <!-- <div data-spy="scroll" data-target="#list-example" data-offset="0" class="scrollspy-example"> -->
-      <div>
-        <h4 id="list-item-1" data-name="education">OBJECTIVE</h4>
+      <div id="section1">
+        <h4 data-name="education">OBJECTIVE</h4>
         <p>
           Looking to leverage ten years experience as an educator to quickly
           learn and grow in a web development career. Because of her
@@ -62,8 +79,10 @@
           highly motivated self-starter who is fully committed to proving
           herself in a new career, she would be a great asset to any company.
         </p>
-        <br /><br /><br />
-        <h4 id="list-item-2" data-name="experience">EXPERIENCE</h4>
+      </div>
+      <br /><br /><br />
+      <div id="section2">
+        <h4 data-name="experience">EXPERIENCE</h4>
         <p>
           <i>Physical Education Teacher, Deer Park ISD</i><br />
           Pasadena, TX (Aug 2017 - Aug 2020)<br />
@@ -87,8 +106,10 @@
           <i>Dual Language Teacher, North East ISD</i><br />
           San Antonio, TX (Aug 2010 - Aug 2013)<br />
         </p>
-        <br /><br /><br />
-        <h4 id="list-item-3" data-name="skills">SKILLS</h4>
+      </div>
+      <br /><br /><br />
+      <div id="section3">
+        <h4 data-name="skills">SKILLS</h4>
         <div class="row">
           <div class="col">
             <ul>
@@ -123,34 +144,38 @@
         </div>
       </div>
       <br /><br /><br />
-      <h4 id="list-item-4" data-name="education">EDUCATION</h4>
-      <div class="row">
-        <p class="col">
-          <i>University of Texas at Austin</i><br />
-          Austin, TX (May 2010)<br />
-          Bachelors in Bilingual Education
-        </p>
-        <p class="col">
-          <img src="../../../assets/longhorn.png" alt="" height="72px" />
-        </p>
-      </div>
-      <br />
-      <div class="row">
-        <p class="col">
-          <i>University of Texas at San Antonio</i><br />
-          San Antonio, TX (May 2013)<br />
-          Masters in Instructional Technology
-        </p>
-        <p class="col">
-          <img src="../../../assets/rowdy.png" alt="" height="72px" />
-        </p>
+      <div id="section4">
+        <h4 data-name="education">EDUCATION</h4>
+        <div class="row">
+          <p class="col">
+            <i>University of Texas at Austin</i><br />
+            Austin, TX (May 2010)<br />
+            Bachelors in Bilingual Education
+          </p>
+          <p class="col">
+            <img src="../../../assets/longhorn.png" alt="" height="72px" />
+          </p>
+        </div>
+        <br />
+        <div class="row">
+          <p class="col">
+            <i>University of Texas at San Antonio</i><br />
+            San Antonio, TX (May 2013)<br />
+            Masters in Instructional Technology
+          </p>
+          <p class="col">
+            <img src="../../../assets/rowdy.png" alt="" height="72px" />
+          </p>
+        </div>
       </div>
       <br /><br /><br />
-
-      <h4 id="list-item-5" data-name="hobbies">HOBBIES</h4>
-      <p>
-        Fitness, Dance, Music, Mountain Biking, Brazilian Jiu Jitsu, & Mixology
-      </p>
+      <div id="section5">
+        <h4 data-name="hobbies">HOBBIES</h4>
+        <p>
+          Fitness, Dance, Music, Mountain Biking, Brazilian Jiu Jitsu, &
+          Mixology
+        </p>
+      </div>
       <br /><br /><br />
     </div>
   </div>

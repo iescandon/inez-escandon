@@ -1,3 +1,4 @@
+import { ScrollSpyDirective } from './scroll-spy.directive';
 import { BrowserModule } from '@angular/platform-browser';
 import { ReactiveFormsModule } from '@angular/forms';
 import { NgModule } from '@angular/core';
@@ -45,6 +46,7 @@ import { ContactService } from './services/contact.service';
     ContactInfoComponent,
     ContactFormComponent,
     ContactTitleComponent,
+    ScrollSpyDirective,
   ],
   imports: [
     BrowserModule,
