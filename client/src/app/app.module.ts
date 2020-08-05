@@ -27,6 +27,7 @@ import { ContactTitleComponent } from './components/contact-title/contact-title.
 import { ContactService } from './services/contact.service';
 import { ToastComponent } from './components/toast/toast.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -58,6 +59,7 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
     HttpClientModule,
     ReactiveFormsModule,
     NgbModule,
+    FormsModule,
   ],
   providers: [ContactService, ToastService],
   bootstrap: [AppComponent],
