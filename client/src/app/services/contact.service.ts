@@ -6,7 +6,8 @@ import { HttpClient, HttpHeaders } from '@angular/common/http';
   providedIn: 'root',
 })
 export class ContactService {
-  postURL = 'http://localhost:8080/api/response';
+  // postURL = 'http://localhost:3000/api/response';
+  postURL = '/api/response';
 
   constructor(private http: HttpClient) {}
 
