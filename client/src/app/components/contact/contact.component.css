@@ -1,0 +1,16 @@
+.container-fluid {
+  background: white;
+  height: 100vh;
+  overflow: hidden;
+  background-position-y: center;
+  position: absolute;
+  top: 0;
+  z-index: -100;
+  background-image: url(../../../assets/contact.jpg);
+  background-size: cover;
+}
+
+.col {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}

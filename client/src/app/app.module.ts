@@ -1,6 +1,7 @@
 import { BrowserModule } from '@angular/platform-browser';
+import { ReactiveFormsModule } from '@angular/forms';
 import { NgModule } from '@angular/core';
-
+import { HttpClientModule } from '@angular/common/http';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
@@ -18,6 +19,10 @@ import { PortfolioItemsComponent } from './components/portfolio-items/portfolio-
 import { ResumeTitleComponent } from './components/resume-title/resume-title.component';
 import { ResumeInfoComponent } from './components/resume-info/resume-info.component';
 import { NavbarLightComponent } from './components/navbar-light/navbar-light.component';
+import { ContactInfoComponent } from './components/contact-info/contact-info.component';
+import { ContactFormComponent } from './components/contact-form/contact-form.component';
+import { ContactTitleComponent } from './components/contact-title/contact-title.component';
+import { ContactService } from './services/contact.service';
 
 @NgModule({
   declarations: [
@@ -37,9 +42,17 @@ import { NavbarLightComponent } from './components/navbar-light/navbar-light.com
     ResumeTitleComponent,
     ResumeInfoComponent,
     NavbarLightComponent,
+    ContactInfoComponent,
+    ContactFormComponent,
+    ContactTitleComponent,
   ],
-  imports: [BrowserModule, AppRoutingModule],
-  providers: [],
+  imports: [
+    BrowserModule,
+    AppRoutingModule,
+    HttpClientModule,
+    ReactiveFormsModule,
+  ],
+  providers: [ContactService],
   bootstrap: [AppComponent],
 })
 export class AppModule {}
