@@ -49,7 +49,7 @@ p {
 }
 
 .current-section {
-  background-color: cornflowerblue;
+  background-color: rgb(245, 220, 0);
 }
 .current-section::after {
   /* content: "\039e"; */

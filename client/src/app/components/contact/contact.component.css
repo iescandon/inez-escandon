@@ -14,3 +14,11 @@
   padding-left: 0 !important;
   padding-right: 0 !important;
 }
+
+.vertical-center {
+  /* min-height: 100%; */
+  min-height: 80vh;
+
+  display: flex;
+  align-items: center;
+}
