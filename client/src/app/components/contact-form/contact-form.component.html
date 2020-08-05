@@ -1,6 +1,6 @@
 <!-- COLUMN 1: CONTACT FORM-->
 <div class="justify-content-center ml-5 mr-5">
-  <form [formGroup]="contactForm" (ngSubmit)="onSubmit()">
+  <form #myForm="ngForm" [formGroup]="contactForm" (ngSubmit)="onSubmit()">
     <div class="row">
       <div class="col-md-6">
         <label for="name">NAME</label>

@@ -1,3 +1,4 @@
+import { ToastService } from './services/toast.service';
 import { ScrollSpyDirective } from './scroll-spy.directive';
 import { BrowserModule } from '@angular/platform-browser';
 import { ReactiveFormsModule } from '@angular/forms';
@@ -24,6 +25,8 @@ import { ContactInfoComponent } from './components/contact-info/contact-info.com
 import { ContactFormComponent } from './components/contact-form/contact-form.component';
 import { ContactTitleComponent } from './components/contact-title/contact-title.component';
 import { ContactService } from './services/contact.service';
+import { ToastComponent } from './components/toast/toast.component';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
 @NgModule({
   declarations: [
@@ -47,14 +50,16 @@ import { ContactService } from './services/contact.service';
     ContactFormComponent,
     ContactTitleComponent,
     ScrollSpyDirective,
+    ToastComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     HttpClientModule,
     ReactiveFormsModule,
+    NgbModule,
   ],
-  providers: [ContactService],
+  providers: [ContactService, ToastService],
   bootstrap: [AppComponent],
 })
 export class AppModule {}
