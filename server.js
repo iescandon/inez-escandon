@@ -29,6 +29,10 @@ app.use(express.static('public'));
 
 require('./routes/api-routes')(app);
 
+app.get('/*', function (req, res) {
+	res.sendFile(path.join(__dirname + '/dist/client/index.html'));
+});
+
 // Syncing our sequelize models and then starting our Express app
 // =============================================================
 db.sequelize.sync({ force: true }).then(function () {
