@@ -10,7 +10,7 @@
 		"test": "ng test",
 		"lint": "ng lint",
 		"e2e": "ng e2e",
-		"postinstall": "ng build --output-path dist client --prod"
+		"postinstall": "ng build client --output-path dist --prod"
 	},
 	"repository": {
 		"type": "git",
