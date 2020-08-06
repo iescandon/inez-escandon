@@ -10,7 +10,7 @@
 		"test": "ng test",
 		"lint": "ng lint",
 		"e2e": "ng e2e",
-		"postinstall": "cd client && npm run build",
+		"heroku-postbuild": "cd client && npm run build",
 		"install": "cd client && npm install"
 	},
 	"repository": {
