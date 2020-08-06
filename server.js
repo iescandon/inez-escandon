@@ -12,7 +12,7 @@ const path = require('path');
 var app = express();
 var PORT = process.env.PORT || 3000;
 
-var distDir = __dirname + '/client/dist';
+var distDir = __dirname + '/client/dist/client';
 app.use(express.static(distDir));
 //hello
 // Requiring our models for syncing
