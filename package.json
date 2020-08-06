@@ -4,11 +4,13 @@
 	"description": "",
 	"main": "index.js",
 	"scripts": {
+		"ng": "ng",
 		"start": "node server.js",
-		"test": "echo \"Error: no test specified\" && exit 1",
-		"build": "cd client && npm run build",
-		"heroku-postbuild": "npm run buildprod",
-		"install": "cd client && npm install"
+		"build": "cd client && ng build",
+		"test": "ng test",
+		"lint": "ng lint",
+		"e2e": "ng e2e",
+		"postinstall": "cd client && ng build --output-path dist"
 	},
 	"repository": {
 		"type": "git",
@@ -22,6 +24,8 @@
 	},
 	"homepage": "https://github.com/iescandon/inez-escandon#readme",
 	"dependencies": {
+		"@angular/cli": "^10.0.5",
+		"@angular/compiler-cli": "^10.0.8",
 		"express": "^4.17.1",
 		"mysql2": "^2.1.0",
 		"sequelize": "^6.3.4"
