@@ -983,7 +983,7 @@ PortfolioItemsComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵ
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](8, "SALUD!");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](9, "p");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](10, " Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aut veniam impedit, non animi quidem iure explicabo quas illo sed dolor soluta omnis aliquam delectus ducimus voluptatibus veritatis optio. Recusandae, officia. ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](10, " Salud! was a labor of love for its creators. In the week and a half we had to build Salud!, we learned and implemented both Angular and JSON Web Tokens. We built our database from scratch using MySQL and Sequelize, and used ngBootstrap for front-end styling. The idea grew from a desire to have a lightweight, unintrusive way to find and save our favorite cocktail recipes. We hope this app makes the good times better for anyone who uses it! ");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
