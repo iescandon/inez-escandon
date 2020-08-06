@@ -6,11 +6,11 @@
 	"scripts": {
 		"ng": "ng",
 		"start": "node server.js",
-		"build": "cd client && ng build",
+		"build": "ng build client --prod",
 		"test": "ng test",
 		"lint": "ng lint",
 		"e2e": "ng e2e",
-		"postinstall": "cd client && ng build --output-path dist"
+		"postinstall": "ng build --output-path dist client --prod"
 	},
 	"repository": {
 		"type": "git",
