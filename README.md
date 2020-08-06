@@ -2,7 +2,7 @@ Personal Website/Portfolio
 
 # Live Site
 
-<!-- https://iescandon.github.io/ -->
+https://inez-escandon.herokuapp.com/
 
 ## Description
 
