@@ -10,7 +10,8 @@
 		"test": "ng test",
 		"lint": "ng lint",
 		"e2e": "ng e2e",
-		"postinstall": "cd client && npm run build"
+		"postinstall": "cd client && npm run build",
+		"install": "cd client && npm install"
 	},
 	"repository": {
 		"type": "git",
