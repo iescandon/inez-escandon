@@ -1,0 +1,20 @@
+.container-fluid {
+  /* background: white; */
+  height: 100vh;
+  overflow: hidden;
+  background-position-y: center;
+  position: absolute;
+  top: 0;
+  z-index: -100;
+  background: url(../../../assets/inez.jpg) no-repeat center center fixed;
+  /* background-size: cover; */
+  /* background: url(assets/inez.jpg) no-repeat center center fixed; */
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  /* background-size: cover; */
+  /* height: 100%; */
+  background-repeat: no-repeat;
+  font-family: "Montserrat", sans-serif;
+}
