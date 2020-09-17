@@ -1,7 +1,7 @@
 {
   "name": "client",
   "version": "0.0.0",
-  "homepage": "http://iescandon.github.io/react-portfolio",
+  "homepage": "https://inez-escandon.herokuapp.com/",
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
